@@ -51,7 +51,7 @@ namespace AreaLightsDemo.Windows
                 SurfaceInfo = window.SurfaceInfo,
                 Width = window.Width,
                 Height = window.Height,
-                ColorTargetFormat = PixelFormat.R8G8B8A8_UNorm,
+                ColorTargetFormat = PixelFormat.R8G8B8A8_UNorm_SRgb,
                 ColorTargetFlags = TextureFlags.RenderTarget | TextureFlags.ShaderResource,
                 DepthStencilTargetFormat = PixelFormat.D24_UNorm_S8_UInt,
                 DepthStencilTargetFlags = TextureFlags.DepthStencil,
